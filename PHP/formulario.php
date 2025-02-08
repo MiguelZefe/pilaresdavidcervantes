@@ -11,7 +11,7 @@
     </select>
 
     <h3>Responde las preguntas:</h3>
-    <?php for ($i = 1; $i <= 3; $i++): ?>
+    <?php for ($i = 1; $i <= 128; $i++): ?>
         <p>Pregunta <?php echo $i; ?>:</p>
         <label><input type="radio" name="pregunta_<?php echo $i; ?>" value="A" required> A</label>
         <label><input type="radio" name="pregunta_<?php echo $i; ?>" value="B"> B</label>
