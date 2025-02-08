@@ -1,5 +1,5 @@
 <?php
-$aux = 3;
+$aux = 128;
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $folio = strtoupper($_POST["folio"]); // Convierte el folio a mayúsculas
     $nombre = $_POST["nombre"];
